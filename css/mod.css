@@ -140,3 +140,42 @@
 		display:block;
 	}
 }
+.shane_tm_portfolio{
+	overflow:hidden;
+	height:700px;
+	position:relative;
+	transition: height 1s;
+}
+@media (max-width: 992px) {
+	.shane_tm_portfolio{
+		height:900px;
+	}
+}
+@media (max-width: 768px) {
+	.shane_tm_portfolio{
+		height:1200px;
+	}
+}
+#btn_pr{
+	border:1px solid #000;
+	cursor:pointer;
+	position:absolute;
+	left:50%;
+	bottom: 5px;
+	margin-left:-22px; 
+	background-color:#000;
+	border-radius:50%;
+ 	animation: bounce 1.5s infinite linear;
+}
+@keyframes bounce {
+50% {
+    transform: translateY(-10px);
+  }
+}
+#btn_pr i{
+	padding:15px;
+	color:#fff;
+}
+
+
+
